@@ -1,0 +1,21 @@
+# Project
+node_modules/
+.*
+!.babelrc
+!.eslintrc.js
+*.log
+yarn.lock
+/dist
+/coverage
+*.tsbuildinfo
+tag
+branch
+message
+# Images
+*.svg
+*.jpg
+*.png
+*.cur
+*.ico
+
+*.css.d.ts

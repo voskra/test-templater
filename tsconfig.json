@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "target": "es5",
+    "module": "ESNext",
+    "jsx": "react",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "pretty": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./lib",
+    "lib": ["DOM", "WebWorker", "scripthost"],
+    "plugins": [
+      {
+        "transform": "ts-nameof",
+        "type": "raw"
+      }
+    ],
+    "downlevelIteration": true,
+    "noEmit": true
+  },
+  "include": [
+    "types.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.spec.tsx",
+    "src/**/*.spec.ts"
+  ]
+}
